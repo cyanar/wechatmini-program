@@ -1,0 +1,23 @@
+/* components/movie/index.wxss */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+}
+.container .top_pic {
+  width: 100%;
+}
+.container .type_pic {
+  width: 46rpx;
+  height: 142rpx;
+  padding-left: 56rpx;
+  padding-top: 38rpx;
+  transform: translate(0,-50%);
+}
+
+.container text {
+  font-size: 32rpx;
+  align-self:center;
+  max-width: 550rpx;
+}

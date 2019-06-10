@@ -1,0 +1,8 @@
+<!--components/classic/music/index.wxml-->
+<!--components/movie/index.wxml-->
+<view class="container">
+  <image src="{{img}}" class="top_pic {{playing?'rotation':''}}"/>
+  <image src="{{playing ? pauseSrc : playSrc}}" class="play" bind:tap="onPlay"/>
+  <image src="{{typeImage}}" class="type_pic"/>
+  <text>{{content}}</text>
+</view>

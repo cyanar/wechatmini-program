@@ -1,0 +1,51 @@
+/* components/classic/music/index.wxss */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.container .top_pic {
+  width: 422rpx;
+  height: 422rpx;
+  margin-top: 60rpx;
+  border-radius: 50%;
+}
+.play {
+  width: 120rpx;
+  height: 120rpx;
+  position:relative;
+  bottom: 270rpx;
+}
+.container .type_pic {
+  width: 44rpx;
+  height: 128rpx;
+  right: 310rpx;
+  bottom: 160rpx;
+  position:relative;
+}
+
+.container text {
+  font-size: 32rpx;
+  max-width: 550rpx;
+  position:relative;
+  top: -60rpx;
+}
+
+.rotation {
+    -webkit-transform: rotate(360deg);
+    animation: rotation 12s linear infinite;
+    -moz-animation: rotation 12s linear infinite;
+    -webkit-animation: rotation 12s linear infinite;
+    -o-animation: rotation 12s linear infinite;
+  }
+  
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }

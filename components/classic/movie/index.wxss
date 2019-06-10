@@ -1,0 +1,3 @@
+/* components/movie/index.wxss */
+
+@import "../common.wxss";
